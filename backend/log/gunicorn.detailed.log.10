@@ -1,0 +1,54 @@
+[2023-09-24 12:38:50,974] INFO _log() L224   * Restarting with stat - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:38:52,082] WARNING put_boi() L161  Erro ao alterar Boi #'12', ('Boi não encontrado na base :', 12) - call_trace=E:\Pós\MVP_Sprint\backend\app.py L161 
+[2023-09-24 12:38:52,084] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:38:52] "[33mPUT /boi?brinco=12 HTTP/1.1[0m" 404 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:39:14,100] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:39:14] "PUT /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:44:18,366] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.111:5000 (Press CTRL+C to quit) - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:44:18,370] INFO _log() L224   * Restarting with stat - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:44:22,597] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:44:22] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:44:22,598] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:44:22] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:44:39,252] WARNING add_boi() L54   Erro ao adicionar Boi '1', Brinco cadastrado ja foi utilizado :/ - call_trace=E:\Pós\MVP_Sprint\backend\app.py L54  
+[2023-09-24 12:44:39,253] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:44:39] "[31m[1mPOST /boi HTTP/1.1[0m" 409 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:44:42,168] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:44:42] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:44:42,170] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:44:42] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:49:42,134] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:49:42] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:49:42,135] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:49:42] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:49:55,899] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:49:55] "OPTIONS /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 12:49:56,152] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 12:49:56] "PUT /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:02:21,863] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:02:21] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:02:21,864] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:02:21] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:02:35,096] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:02:35] "OPTIONS /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:02:35,122] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:02:35] "PUT /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:09:50,116] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:09:50] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:09:50,117] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:09:50] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:11:02,253] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:11:02] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:11:02,255] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:11:02] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:12:12,145] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:12:12] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:12:12,146] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:12:12] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:12:23,521] WARNING add_boi() L54   Erro ao adicionar Boi '1', Brinco cadastrado ja foi utilizado :/ - call_trace=E:\Pós\MVP_Sprint\backend\app.py L54  
+[2023-09-24 13:12:23,522] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:12:23] "[31m[1mPOST /boi HTTP/1.1[0m" 409 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:13:11,308] WARNING add_boi() L54   Erro ao adicionar Boi '1', Brinco cadastrado ja foi utilizado :/ - call_trace=E:\Pós\MVP_Sprint\backend\app.py L54  
+[2023-09-24 13:13:11,309] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:13:11] "[31m[1mPOST /boi HTTP/1.1[0m" 409 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:13:15,419] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:13:15] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:13:15,420] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:13:15] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:13:26,117] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:13:26] "OPTIONS /boi HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:13:26,394] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:13:26] "PUT /boi HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:39,193] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:39] "PUT /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:59,123] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:59] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:59,279] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:59] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:59,286] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:59] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:59,297] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:59] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:59,523] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:59] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:59,568] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:59] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:14:59,571] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:14:59] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:02,963] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:02] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:02,963] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:02] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:07,651] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:07] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:07,652] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:07] "GET /bois HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:23,357] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:23] "OPTIONS /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:23,570] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:23] "PUT /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:38,389] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:38] "OPTIONS /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:15:38,602] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:15:38] "PUT /boi?brinco=1 HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-24 13:17:24,845] INFO _log() L224  127.0.0.1 - - [24/Sep/2023 13:17:24] "GET /pesos HTTP/1.1" 200 - - call_trace=E:\Pós\Python311\Lib\site-packages\werkzeug\_internal.py L224 
