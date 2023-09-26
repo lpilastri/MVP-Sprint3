@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>MVP</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Fazenda Pilastri</h2>
+        </div>
+        <div class="banner">
+            <img src="img/fazenda.jpg">
+        </div>
+    </header>
+	
+	<div class="climaInfo">
+        <!-- Atualizar informações sobre o clima -->
+            <p class="temp"><span>Temperatura: </span> <span id="temperature">Clima</span></p>
+            <p class="weather"><span>Clima: </span><span id="clima">Temperature</span></p>
+			<p class="humidity"><span>Humidade: </span><span id="humid">Humidade</span></p>
+    </div>
+
+    <ul class="newsItemsUl">
+        <!-- Opções para adicionar um novo Boi -->
+        <section class="newItemBoi">
+			<input type="text" id="newBrinco" placeholder="Brinco:">
+            <input type="text" id="newRaca" placeholder="Raça:">
+            <input type="text" id="newComentario" placeholder="Comentario:">
+            <span onclick="newBoi()" class="addBtnBoi">Adicionar</span>
+			<span onclick="alteraBoi()" class="addBtnBoi">Alterar</span>
+        </section>
+
+        <!-- Opções para adicionar um novo Peso -->
+        <section class="newItemPeso">
+            <input type="text" id="newBrincoRef" placeholder="Brinco:">
+            <input type="text" id="newValor" placeholder="Peso:">
+            <input type="text" id="newData" placeholder="Data:">
+            <span onclick="newPeso()" class="addBtnPeso">Adicionar</span>
+        </section>
+    </ul>
+
+    <!-- Tabela com items existentes -->
+    <div class="items">
+		<div class="column">
+			<table id="myTableBoi">
+				<tr>
+					<th class="five">Brinco</th>
+					<th class="fifteen">Raça</th>
+					<th class="eighty">Comentario</th>
+					<th class="five"><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+				</tr>
+			</table>
+		</div>
+		<div class="column">	
+			<table id="myTablePeso">
+				<tr>
+					<th class="five">Id</th>
+					<th class="five">Brinco</th>
+					<th class="fourty">Peso</th>
+					<th class="fourty">Data</th>
+					<th class="five"><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
